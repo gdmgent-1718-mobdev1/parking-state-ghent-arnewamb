@@ -1,0 +1,138 @@
+a:link {
+  text-decoration: none;  
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;  
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;  
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;  
+}
+
+/*selected with tabs*/
+a:focus {
+  text-decoration: none;  
+}
+
+.buttonToOtherPage{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: green;
+	font-family: helvetica;
+	font-size: 15px;
+}.buttonToOtherPage2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: green;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+.headpic{
+	height: 100vh;
+	background-image: url(../img/parking.jpg);
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 50px;
+
+}
+
+.refresh{
+	position: absolute;
+	position: fixed;
+	color: black;
+	right: 20px;
+	top: 20px;
+}
+
+body{
+	margin: 0px;
+
+}
+
+.titlePage{
+	height: 100vh;
+	overflow: hidden;
+}
+
+.results{
+	margin-left: 40px;
+}
+.parking{
+	background-color:#464950;
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	min-width: 300px;
+	min-height: 300px;
+	overflow: hidden;
+	border: solid #464950;
+	border-radius: 20px;
+}
+
+h1,
+h2,
+p{
+	font-weight: lighter;
+	font-family: helvetica;
+}
+
+h1{
+	margin: 0px;
+	padding: 40px;
+	padding-top: 40vh;
+	color: white;
+}
+
+h2{
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.upper{
+	background-color: white;
+	height: 80px;
+}
+
+
+.lower{
+	text-align: center;
+}
+p{
+color: white;
+}
+
+
+.capacity{
+	margin-top: 30px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+
+.green{
+	color: green;
+}
+
+.red{
+	color: red;
+}
+
+.orange{
+	color: orange;
+}
+
+.adress{
+	margin-top: 30px;
+}
